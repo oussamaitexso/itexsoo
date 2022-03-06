@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  !background: #494a57;!
+  font-family: sans-serif;
+
+
+
+}
+body{
+  background: #222;
+
+}
+nav {
+
+
+  background: hsla(100, 50%, 50%, 0.57);
+  height:80px;
+  width:100%;
+  position: sticky;
+  top: 0;
+  position: relative;
+
+
+}
+label.logo{
+
+ color: white;
+ font-size: 70px;
+ line-height: 70px;
+font-weight: bold;
+padding: 0px 100px;
+font-family: 'work sans' , sans-serif;
+float: left;
+
+}
+label.logo:hover{
+  color: black;
+}
+nav ul {
+  margin:0;
+  padding:0;
+  list-style: none;
+  margin-right:250px;
+}
+/* setting of nav word*/
+.inline{
+  display: inline-block;
+  margin-left: 20px;
+  padding-top: 40px;
+  float:right;
+  position:relative;
+  font-family: 'work sans' , sans-serif;
+
+
+}
+/* button hover option*/
+nav a{
+  color: #444;
+  text-transform: uppercase;
+  font-weight: bold;
+
+}
+nav a:hover{
+  color: #000;
+}
+nav a::before{
+  content: '';
+  display: block;
+  height:7px;
+  width:100%;
+  background-color: #444;
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+nav a:hover::before{
+ width: 100%
+}
+/* end of nav hover  option*/
+.sign-up{
+  position: absolute;
+  top: 15%;
+  right:43%;
+
+
+
+
+  width: 350px;
+
+}
+.sign-up h1{
+
+  font-size:40px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 40px 0;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+.sign-up p{
+
+  font-size:20px;
+  margin:15px 0;
+  font-family:  "Courier New";
+
+}
+.sign-up input{
+  font-size: 16px;
+  padding: 15px 10px;
+  width: 100%;
+  border: 0;
+  border-radius: 5px;
+  outline: none;
+  font-family:  "Lucida Console";
+}
+.sign-up button{
+  font-size:18px;
+  font-weight: bold;
+  margin: 20px 0;
+  padding: 10px 15px;
+  width: 50%;
+  border: 0;
+  border-radius: 5px;
+  background-color:#fff;
+}
+.sign-up button:hover{
+  color: white;
+  background-color: black;
+}
+/*.sign-up button::before{
+  color: white;
+  background-color: black;
+  position: absolute;
+
+  height:0%;
+  width:0%;
+}
+.sign-up button:hover::before{
+ width: 100%
+}*/
